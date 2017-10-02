@@ -40,6 +40,6 @@ def play(board)
   count_moves = 0
   until count_moves == 9
     turn(board)
-    count += 1
+    count_moves += 1
   end
 end
